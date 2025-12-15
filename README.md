@@ -51,5 +51,25 @@ O objetivo do **AtendeJá** é simplificar o controle de atendimentos em estabel
 ---
 ---
 
-## 📂 Estrutura do Projeto
+
+---
+
+## 🚀 Como Executar o Projeto
+
+```bash
+# Clonar o repositório
+git clone https://github.com/seu-usuario/atendeja.git
+
+# Entrar no diretório
+cd atendeja
+
+# Instalar dependências
+npm install
+
+# Configurar variáveis de ambiente (PostgreSQL)
+# Ex: DATABASE_URL=postgres://usuario:senha@localhost:5432/atendeja
+
+# Executar em desenvolvimento
+npm run dev
+
 
