@@ -3,14 +3,14 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const pool = new Pool({
+const db = new Pool({
   connectionString: process.env.CONNECTION_STRING
 })
 
 const connected = async () => {
-  pool.on('connect', () => {
+  db.on('connect', () => {
     console.log('Connectado com Banco de Dados!');
   });
 }
 
-export { pool, connected }
+export { db, connected }
