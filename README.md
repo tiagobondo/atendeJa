@@ -15,61 +15,31 @@ O objetivo do **AtendeJá** é simplificar o controle de atendimentos em estabel
 ## ⚙️ Funcionalidades
 
 ### Para o operador:
-- Cadastro rápido de clientes
-- Controle do status de cada atendimento: Aguardando, Em Atendimento, Atendido
-- Visualização da posição do cliente na lista
-- Contador diário de clientes atendidos e em espera
-- Botões para "Chamar próximo" e "Finalizar atendimento"
+- 📝 Cadastro rápido de clientes
+- ⏳ Controle do status de cada atendimento: **Aguardando**, **Em Atendimento**, **Atendido**
+- 👀 Visualização da posição do cliente na lista
+- 📊 Contador diário de clientes atendidos e em espera
+- 🔘 Botões para "Chamar próximo" e "Finalizar atendimento"
 
 ### Para o MVP:
-- Atualização da lista de atendimentos em tempo real
-- Interface clara com cores que indicam o status dos clientes
+- 🔄 Atualização da lista de atendimentos em tempo real
+- 🎨 Interface clara com cores que indicam o status dos clientes
 
 ---
 
 ## 🖌️ Paleta de cores
 
-- Azul Escuro (#1F3A93): cabeçalho e botões principais  
-- Azul Claro (#4A90E2): destaque e hover de botões  
-- Cinza Claro (#F5F5F5): fundo da página  
-- Cinza Médio (#C0C0C0): bordas e separadores  
-- Verde Suave (#27AE60): status “Atendido”  
-- Amarelo Suave (#F1C40F): status “Em Atendimento”  
-- Vermelho Suave (#E74C3C): status “Aguardando”  
-- Preto Escuro (#2C3E50): texto principal
+| Cor              | Hex       | Uso no projeto                     |
+|-----------------|-----------|-----------------------------------|
+| 🔵 Azul Escuro    | #1F3A93   | Cabeçalho e botões principais     |
+| 🔹 Azul Claro     | #4A90E2   | Destaques, hover em botões        |
+| ⚪ Cinza Claro    | #F5F5F5   | Fundo das páginas                 |
+| ⚫ Cinza Médio    | #C0C0C0   | Bordas e separadores              |
+| ✅ Verde Suave    | #27AE60   | Status “Atendido”                 |
+| ⚠️ Amarelo Suave  | #F1C40F   | Status “Em Atendimento”           |
+| ❌ Vermelho Suave | #E74C3C   | Status “Aguardando”               |
+| 🖤 Preto Escuro   | #2C3E50   | Texto principal                   |
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-- **Frontend:** HTML, CSS, Bootstrap, JavaScript, EJS  
-- **Backend:** Node.js, Express, TypeScript  
-- **Banco de Dados:** PostgreSQL  
-- **Controle de versão:** Git & GitHub  
-- **Build / Deploy:** Vercel / Render / Railway  
-
----
----
-
-
----
-
-## 🚀 Como Executar o Projeto
-
-```bash
-# Clonar o repositório
-git clone https://github.com/seu-usuario/atendeja.git
-
-# Entrar no diretório
-cd atendeja
-
-# Instalar dependências
-npm install
-
-# Configurar variáveis de ambiente (PostgreSQL)
-# Ex: DATABASE_URL=postgres://usuario:senha@localhost:5432/atendeja
-
-# Executar em desenvolvimento
-npm run dev
-
-
+## 🛠️ Tecnologias
