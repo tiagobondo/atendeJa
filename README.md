@@ -14,14 +14,16 @@ O objetivo do **AtendeJá** é simplificar o controle de atendimentos em estabel
 
 ## ⚙️ Funcionalidades
 
-### Para o operador:
+### Para o operador
+
 - 📝 Cadastro rápido de clientes
 - ⏳ Controle do status de cada atendimento: **Aguardando**, **Em Atendimento**, **Atendido**
 - 👀 Visualização da posição do cliente na lista
 - 📊 Contador diário de clientes atendidos e em espera
 - 🔘 Botões para "Chamar próximo" e "Finalizar atendimento"
 
-### Para o MVP:
+### Para o MVP
+
 - 🔄 Atualização da lista de atendimentos em tempo real
 - 🎨 Interface clara com cores que indicam o status dos clientes
 
