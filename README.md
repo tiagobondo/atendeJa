@@ -1,6 +1,6 @@
-# 🧾 AtendeJá
+# 🧾 AtendeJá - API
 
-**AtendeJá** é um sistema web de controle de atendimentos em estabelecimentos, permitindo que o operador registre clientes, acompanhe o status de cada atendimento e saiba quantos clientes foram atendidos ao longo do dia.  
+**AtendeJá - API** é um serviço backend para sistema de controle de atendimentos em estabelecimentos, permitindo que o operador registre clientes, acompanhe o status de cada atendimento e saiba quantos clientes foram atendidos ao longo do dia.  
 
 Este projeto é um **MVP funcional**, desenvolvido para demonstrar rapidamente a viabilidade da ideia.
 
@@ -8,7 +8,7 @@ Este projeto é um **MVP funcional**, desenvolvido para demonstrar rapidamente a
 
 ## 🎯 Objetivo
 
-O objetivo do **AtendeJá** é simplificar o controle de atendimentos em estabelecimentos físicos, evitando confusão, organizando o fluxo de clientes e permitindo ao operador acompanhar em tempo real a situação do dia.
+O objetivo do **AtendeJá - API** é simplificar o controle de atendimentos em estabelecimentos físicos, evitando confusão, organizando o fluxo de clientes e permitindo ao operador acompanhar em tempo real a situação do dia.
 
 ---
 
@@ -20,7 +20,7 @@ O objetivo do **AtendeJá** é simplificar o controle de atendimentos em estabel
 - ⏳ Controle do status de cada atendimento: **Aguardando**, **Em Atendimento**, **Atendido**
 - 👀 Visualização da posição do cliente na lista
 - 📊 Contador diário de clientes atendidos e em espera
-- 🔘 Botões para "Chamar próximo" e "Finalizar atendimento"
+- 🔘 Botões para "Chamar próximo" e "Finalizar atendimento" (Front-end)
 
 ### Para o MVP
 
@@ -29,7 +29,7 @@ O objetivo do **AtendeJá** é simplificar o controle de atendimentos em estabel
 
 ---
 
-## 🖌️ Paleta de cores
+## 🖌️ Paleta de cores (Sugestões para o frontendweb)
 
 | Cor              | Hex       | Uso no projeto                     |
 |-----------------|-----------|-----------------------------------|
@@ -46,7 +46,6 @@ O objetivo do **AtendeJá** é simplificar o controle de atendimentos em estabel
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Frontend:** ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![EJS](https://img.shields.io/badge/EJS-A91E50?style=flat&logoColor=white)  
 - **Backend:** ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)  
 - **Banco de Dados:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)  
 - **Controle de versão:** ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)  
