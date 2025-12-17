@@ -3,7 +3,8 @@ import { save } from '../service/tiposervicoService';
 
 const saveData = async (req: Request, res: Response) => {
   const { nome } = req.body;
-  const date = Date.now()
+  const d = new Date();
+  const date = d.toLocaleDateString()
 
   try {
     const response = await save(nome, date);

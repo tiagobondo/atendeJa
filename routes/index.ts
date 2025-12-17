@@ -2,6 +2,7 @@ import express, { Request, Response } from 'express';
 import { connected } from '../app/config/connection';
 import { save, findAll, findBy, updateOne, deleteOne } from '../app/controller/atendimentoController';
 import { saveData } from '../app/controller/servicoController';
+import { saveDatabalcao } from '../app/controller/balcaoController';
 
 const router = express.Router();
 connected();
@@ -17,5 +18,6 @@ router.put('/atendimento/:id', updateOne);
 router.delete('/atendimento/:id', deleteOne);
 
 router.post('/servico', saveData);
+router.post('/balcao/:id', saveDatabalcao);
 
 export default router; 

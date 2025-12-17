@@ -1,4 +1,4 @@
 export interface tipoServico {
   nome: string,
-  criado_em: number
+  criado_em: string
 } 
